@@ -1,0 +1,17 @@
+<html>
+<h2>Reverse text using JavaScript</h2>
+<script>
+    function reverse(form) {
+        var text = "";
+        var str = form.rev.value;
+        for (i = 0; i <= str.length; i++)
+            text = str.substring(i, i + 1) + text;
+        form.rev.value = text;
+    }
+</script>
+<form>
+    <input type="text" name="rev">
+    <input type="button" value="Reverse" onClick="reverse(this.form)">
+</form>
+
+</html>
