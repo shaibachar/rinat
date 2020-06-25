@@ -23,7 +23,7 @@ public class MouseMover {
                 int x = random.nextInt(MAX_X);
                 int y = random.nextInt(MAX_Y);
                 robot.mouseMove(MIN_X + x,MIN_Y + y);
-                Thread.sleep(TIME/2);
+                Thread.sleep(1000);
                 robot.mouseMove(MIN_X - x,MIN_Y - y);
             }
             Thread.sleep(TIME);
