@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.awt.*; 
 
-public class MouseMover {
+public class MM {
     public static final int TIME = 10000;
     public static final int MAX_Y = 40;
     public static final int MAX_X = 40;
@@ -20,11 +20,13 @@ public class MouseMover {
             loc = a.getLocation();
 
             if (lastLoc.getX()==loc.getX() && lastLoc.getY()==loc.getY()){
-                int x = random.nextInt(MAX_X);
-                int y = random.nextInt(MAX_Y);
-                robot.mouseMove(MIN_X + x,MIN_Y + y);
+                a = MouseInfo.getPointerInfo();
+                loc = a.getLocation();
+                robot.mouseMove((int)loc.getX()+6,(int) loc.getY()+6);
+                a = MouseInfo.getPointerInfo();
+                loc = a.getLocation();
                 Thread.sleep(1000);
-                robot.mouseMove(MIN_X - x,MIN_Y - y);
+                robot.mouseMove((int)loc.getX() - 6, (int)loc.getY() - 6);
             }
             Thread.sleep(TIME);
             lastLoc = loc;
