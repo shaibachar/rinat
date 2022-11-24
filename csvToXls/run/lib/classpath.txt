@@ -1,0 +1,12 @@
+total 23208
+-rw-r--r-- 1 shaib 197609       0 Nov 24 18:51 classpath.txt
+-rw-r--r-- 1 shaib 197609  353793 Nov 24 12:40 commons-codec-1.15.jar
+-rw-r--r-- 1 shaib 197609  751914 Jan  1  2022 commons-collections4-4.4.jar
+-rw-r--r-- 1 shaib 197609 1018316 Apr 15  2022 commons-compress-1.21.jar
+-rw-r--r-- 1 shaib 197609  327135 Jan 14  2022 commons-io-2.11.0.jar
+-rw-r--r-- 1 shaib 197609  315115 Nov 24 12:40 log4j-api-2.18.0.jar
+-rw-r--r-- 1 shaib 197609 2964641 Nov 24 12:40 poi-5.2.3.jar
+-rw-r--r-- 1 shaib 197609 2010497 Nov 24 13:13 poi-ooxml-5.2.3.jar
+-rw-r--r-- 1 shaib 197609 5898622 Nov 24 13:13 poi-ooxml-lite-5.2.3.jar
+-rw-r--r-- 1 shaib 197609 7912488 Jan  1  2022 poi-ooxml-schemas-4.1.2.jar
+-rw-r--r-- 1 shaib 197609 2196526 Nov 24 13:13 xmlbeans-5.1.1.jar
